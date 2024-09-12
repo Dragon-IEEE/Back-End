@@ -2,6 +2,30 @@
 for Back-End App
 
 
+How to use the app 
+
+1:download the app from github
+2:create .env file  beside  .env.example file 
+3:copy what inside  .env.example file  in the .env file
+4: add 
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=Dragon_IEEE
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+    to .env file
+
+5: open terminal  and use php artisan serve 
+
+6:open the server and start using api like the Restaurants example
+
+(maybe you need add some data to db to use it )
+
+
+
+
 
 
 Restaurants:-
