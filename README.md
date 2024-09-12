@@ -8,14 +8,22 @@ How to use the app
 2:create .env file  beside  .env.example file 
 3:copy what inside  .env.example file  in the .env file
 4: add 
+
+this code
+
     DB_CONNECTION=mysql
+
     DB_HOST=127.0.0.1
+
     DB_PORT=3306
+
     DB_DATABASE=Dragon_IEEE
+
     DB_USERNAME=root
+
     DB_PASSWORD=
 
-    to .env file
+    to .env file     to create the DB
 
 5: open terminal  and use php artisan serve 
 
